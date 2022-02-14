@@ -34,7 +34,7 @@ app.use(function (req, res, next) {
 const mongoClient = require("mongodb").MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 let db;
-mongoClient.connect('mongodb+srv://admin:secret20221@cluster0.v863i.mongodb.net/CST3145?retryWrites=true&w=majority', (err, client) => {
+mongoClient.connect('mongodb+srv://Senescobaba:Adeola123@cluster0.tq3sv.mongodb.net/CST3145?retryWrites=true&w=majority', (err, client) => {
     db = client.db('CST3145');
 });
 
